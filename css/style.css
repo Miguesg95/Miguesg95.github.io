@@ -28,14 +28,25 @@
 }
 
 .mainPage{
-    background-image: url('../img/1186452.jpg'); 
-    background-repeat: no-repeat; 
+    background-image: url('../img/Fondo Principal.jpg'); 
+    background-repeat: repeat; 
+    background-size: 100%; 
+    color: white;
+}
+
+.mapPage{
+    background-image: url('../img/Fondo Mapa.jpeg'); 
+    background-repeat: repeat; 
     background-size: 100%; 
     color: white;
 }
 
 footer{
     clear:both;
+}
+
+footer #volver{
+    width: 100%;
 }
 
 .sidebar{
@@ -63,8 +74,12 @@ footer{
     color: #476748;
 }
 
-.sectionImg img{
+#queEsER img{
     width: 100%;
+}
+
+#creador img{
+    width: 60%;
 }
 
 hr{
