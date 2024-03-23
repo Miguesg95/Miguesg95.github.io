@@ -41,6 +41,20 @@
     color: white;
 }
 
+.pjPage{
+    background-image: url('../img/Fondo Personajes.jpeg'); 
+    background-repeat: repeat; 
+    background-size: 100%; 
+    color: white;
+}
+
+.eqPage{
+    background-image: url('../img/Fondo Equipamiento.jpeg'); 
+    background-repeat: repeat; 
+    background-size: 100%; 
+    color: white;
+}
+
 footer{
     clear:both;
 }
