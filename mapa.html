@@ -8,7 +8,7 @@
         <link href="css/style.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="img/Icono Elden Ring.png">
     </head>
-    <body class="mapPage">
+    <body class="mx-5 panelMap mapPage">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center mx-5">
             <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
               <img src="img/Icono Elden Ring.png" class="bi me-2" width="90" height="90">
@@ -16,17 +16,17 @@
             </div>
       
             <ul class="nav nav-pills fs-5">
-              <li class="nav-item"><a href="index.html" class="nav-link title shadow">Principal</a></li>
-              <li class="nav-item"><a href="mapa.html" class="nav-link text-white panel text-uppercase">Mapa</a></li>
-              <li class="nav-item"><a href="personajes.html" class="nav-link title shadow">Personajes</a></li>
-              <li class="nav-item"><a href="equipamiento.html" class="nav-link title shadow">Equipamiento</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link titleMap shadow">Principal</a></li>
+              <li class="nav-item"><a href="mapa.html" class="nav-link text-white panelMap text-uppercase">Mapa</a></li>
+              <li class="nav-item"><a href="personajes.html" class="nav-link titleMap shadow">Personajes</a></li>
+              <li class="nav-item"><a href="equipamiento.html" class="nav-link titleMap shadow">Equipamiento</a></li>
             </ul>
         </header>
 
-        <div class="d-flex flex-column flex-shrink-0 p-3 panel mx-5 mb-5 sidebar border-top border-bottom" style="width: 280px;">
+        <div class="d-flex flex-column flex-shrink-0 p-3 panelMap mx-5 mb-5 sidebar border-top border-bottom" style="width: 280px;">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <img class="bi pe-none me-2" src="img/Talisman_arsenal_charm_1.png" width="40" height="32">
-            <h2 class="fs-4 title my-3">Secciones</h2>
+            <h2 class="fs-4 titleMap my-3">Secciones</h2>
           </a>
           <hr>
           <ul class="nav nav-pills flex-column my-3 ">
@@ -52,11 +52,35 @@
           <hr>
         </div>
 
-        <main>
+        <main class="me-5">
+          <div class="fraseCelebre">
+            <p class="fs-3">“Siéntase libre de irse y morir en una zanja en algún lugar”.</p> 
+            <p class="fs-2">-Varre</p>
+          </div>
             <img src="img/Mapa completo elden ring.png">
         </main>
-        <footer>
 
+        <footer class="row row-cols-3 row-cols-sm-3 row-cols-md-3 py-3 mt-5 border-top mx-5 panelMap">
+          <a class="titleMap text-center fs-4" id="volver" href="mapa.html">Volver arriba</a>
+          <div class="col">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <a class="text-white text-decoration-none" href="https://github.com/Miguesg95" target="_blank">Miguesg95</a>
+          </div>
+  
+          <div class="col">
+            
+          </div>
+          
+          <div class="col">
+            <h5 class="titleMap">Más información sobre Elden Ring</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki" target="_blank" class="nav-link p-0 text-white">Elden Ring Wiki - Fextralife</a></li>
+              <li class="nav-item mb-2"><a href="https://store.steampowered.com/agecheck/app/1245620/" target="_blank" class="nav-link p-0 text-white">Elden Ring en Steam</a></li>
+              <li class="nav-item mb-2"><a href="https://es.bandainamcoent.eu/elden-ring/elden-ring" target="_blank" class="nav-link p-0 text-white">Elden Ring - Web Oficial</a></li>
+            </ul>
+          </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>

@@ -19,12 +19,39 @@
     text-transform: uppercase;
 }
 
+.titleMap{
+    color:#AD6F8C;
+    text-transform: uppercase;
+}
+
+.titlePj{
+    color:#928D86;
+    text-transform: uppercase;
+}
+
+.titleEq{
+    color:#D76727;
+    text-transform: uppercase;
+}
+
 .subtitle{
     color:#1A2325;
 }
 
 .panel{
     background-color:#163D3A;
+}
+
+.panelMap{
+    background-color:#212445;
+}
+
+.panelPj{
+    background-color:#211716;
+}
+
+.panelEq{
+    background-color:#632514;
 }
 
 .mainPage{
@@ -85,7 +112,6 @@ footer #volver{
     width: 40%;
     float:left;
     text-align: center;
-    color: #476748;
 }
 
 #queEsER img{
