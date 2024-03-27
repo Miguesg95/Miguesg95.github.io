@@ -56,28 +56,32 @@
 
 .mainPage{
     background-image: url('../img/Fondo Principal.jpg'); 
-    background-repeat: repeat; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
     background-size: 100%; 
     color: white;
 }
 
 .mapPage{
     background-image: url('../img/Fondo Mapa.jpeg'); 
-    background-repeat: repeat; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
     background-size: 100%; 
     color: white;
 }
 
 .pjPage{
     background-image: url('../img/Fondo Personajes.jpeg'); 
-    background-repeat: repeat; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-size: 100%; 
     color: white;
 }
 
 .eqPage{
     background-image: url('../img/Fondo Equipamiento.jpeg'); 
-    background-repeat: repeat; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-size: 100%; 
     color: white;
 }
@@ -115,7 +119,7 @@ footer #volver{
 }
 
 #queEsER img{
-    width: 100%;
+    width: 100%; 
 }
 
 #creador img{
@@ -124,4 +128,8 @@ footer #volver{
 
 hr{
     clear: both;
+}
+
+#desplegable{
+    float: left;
 }

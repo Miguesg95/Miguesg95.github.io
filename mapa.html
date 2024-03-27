@@ -7,21 +7,22 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="img/Icono Elden Ring.png">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
     </head>
     <body class="mx-5 panelMap mapPage">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center mx-5">
-            <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
-              <img src="img/Icono Elden Ring.png" class="bi me-2" width="90" height="90">
-              <h1 class="fs-1 eldenFont mainTitle shadow">Un vistazo a Elden Ring</h1>
-            </div>
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center mx-5">
+        <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+          <img src="img/Icono Elden Ring.png" class="bi me-2" width="90" height="90">
+          <h1 class="fs-1 eldenFont mainTitle shadow">Un vistazo a Elden Ring</h1>
+        </div>
       
-            <ul class="nav nav-pills fs-5">
-              <li class="nav-item"><a href="index.html" class="nav-link titleMap shadow">Principal</a></li>
-              <li class="nav-item"><a href="mapa.html" class="nav-link text-white panelMap text-uppercase">Mapa</a></li>
-              <li class="nav-item"><a href="personajes.html" class="nav-link titleMap shadow">Personajes</a></li>
-              <li class="nav-item"><a href="equipamiento.html" class="nav-link titleMap shadow">Equipamiento</a></li>
-            </ul>
-        </header>
+        <ul class="nav nav-pills fs-5">
+          <li class="nav-item"><a href="index.html" class="nav-link titleMap shadow">Principal</a></li>
+          <li class="nav-item"><a href="mapa.html" class="nav-link text-white panelMap text-uppercase">Mapa</a></li>
+          <li class="nav-item"><a href="personajes.html" class="nav-link titleMap shadow">Personajes</a></li>
+          <li class="nav-item"><a href="equipamiento.html" class="nav-link titleMap shadow">Equipamiento</a></li>
+        </ul>      
+      </header>
 
         <div class="d-flex flex-column flex-shrink-0 p-3 panelMap mx-5 mb-5 sidebar border-top border-bottom" style="width: 280px;">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -31,13 +32,13 @@
           <hr>
           <ul class="nav nav-pills flex-column my-3 ">
             <li class="nav-item">
-              <a href="#" class="nav-link text-white mb-2">
+              <a href="#tierrasIntermedias" class="nav-link text-white mb-2">
                 <img class="bi pe-none me-1" src="img/ER_Inventory_Menu_Icon_Ashes_of_War.png" width="20" height="20">
-                Las tierras intermedias
+                Las Tierras Intermedias
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
+              <a href="#mapZones" class="nav-link text-white">
                 <img class="bi pe-none me-1" src="img/ER_Inventory_Menu_Icon_Ashes_of_War.png" width="20" height="20">
                 Zonas del mundo
               </a>
@@ -51,16 +52,155 @@
             <p class="fs-3">“Siéntase libre de irse y morir en una zanja en algún lugar”.</p> 
             <p class="fs-2">-Varre</p>
           </div>
-            <img src="img/Mapa completo elden ring.png">
+          <div></div>
+
+          <article class="contenido panelMap px-5 py-3 ms-5 border-top border-bottom">
+            <section id="tierrasIntermedias">
+              <h2 class="titleMap">Las Tierras Intermedias</h2>
+              <img src="img/Tierras Intermedias.jpg" width="100%" alt="Tierras Intermedias">
+            </section>
+            <hr>
+            <section id="mapZones">
+              <h2 class="titleMap">Zonas del mapa</h2>
+              <div class="container" id="necrolimbo">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNecro" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable">
+                </button>
+                <h3>Necrolimbo</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarNecro">
+                <img src="img/Necrolimbo.jpg" width="100%" alt="Necrolimbo">
+                <a class="text-decoration-none text-white" href="#necrolimbo">Volver a desplegable</a> 
+              </div>
+              <div class="container" id="llanto">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLlanto" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable">
+                </button>
+                <h3>Peninsula del Llanto</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarLlanto">
+                <img src="img/Peninsula del llanto.png" width="100%" alt="Peninsula del Llanto">
+                <a class="text-decoration-none text-white" href="#llanto">Volver a desplegable</a> 
+              </div>
+              <div class="container" id="liurnia">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLiurnia" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable">
+                </button>
+                <h3>Liurnia, tierra encharcada</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarLiurnia">
+                <img src="img/Liurnia.jpg" width="100%" alt="Liurnia">
+                <a class="text-decoration-none text-white" href="#liurnia">Volver a desplegable</a> 
+              </div>
+              <div class="container" id="siofra">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSiofra" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable">
+                </button>
+                <h3>Río Siofra</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarSiofra">
+                <img src="img/siofra.png" width="100%" alt="Siofra">
+                <a class="text-decoration-none text-white" href="#siofra">Volver a desplegable</a> 
+              </div>
+              <div class="container" id="ainsel">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAinsel" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Río Ainsel</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarAinsel">
+                <img src="img/ainsel.png" width="100%" alt="Ainsel">
+                <a class="text-decoration-none text-white" href="#ainsel">Volver a desplegable</a>
+              </div>
+              <div class="container" id="caelid">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCaelid" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Caelid</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarCaelid">
+                <img src="img/caelid.jpg" width="100%" alt="Caelid">
+                <a class="text-decoration-none text-white" href="#caelid">Volver a desplegable</a>
+              </div>
+              <div class="container" id="raiz">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRaiz" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Fondo de la Raiz Profunda</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarRaiz">
+                <img src="img/Profundidades de la raices.jpg" width="100%" alt="Fondo de la raiz profunda">
+                <a class="text-decoration-none text-white" href="#raiz">Volver a desplegable</a>
+              </div>
+              <div class="container" id="putrefaccion">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPutre" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Lago de la Putrefacción</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarPutre">
+                <img src="img/lago de putrefaccion.png" width="100%" alt="Lago de la Putrefacción">
+                <a class="text-decoration-none text-white" href="#putrefaccion">Volver a desplegable</a>
+              </div>
+              <div class="container" id="altus">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAltus" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>La meseta Altus</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarAltus">
+                <img src="img/altus.jpg" width="100%" alt="Altus">
+                <a class="text-decoration-none text-white" href="#altus">Volver a desplegable</a>
+              </div>
+              <div class="container" id="picosGigantes">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarGigantes" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Picos de los Gigantes</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarGigantes">
+                <img src="img/picos de los gigantes.jpg" width="100%" alt="Picos de los Gigantes">
+                <a class="text-decoration-none text-white" href="#picosGigantes">Volver a desplegable</a>
+              </div>
+              <div class="container" id="niveo">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNiveo" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Campo Sacroniveo</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarNiveo">
+                <img src="img/campo sacroniveo.jpg" width="100%" alt="Campo Sacroniveo">
+                <a class="text-decoration-none text-white" href="#niveo">Volver a desplegable</a>
+              </div>
+              <div class="container" id="farum">
+                <button class="navbar-toggler me-2 mt-1" id="desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFarum" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                  <img class="navbar-toggler-icon" src="img/klipartz.com.png" alt="desplegable"></span>
+                </button>
+                <h3>Farum Azula</h3>
+              </div>
+              <div class="collapse mb-4" id="navbarFarum">
+                <img src="img/farum azula.jpg" width="100%" alt="Farum Azula">
+                <a class="text-decoration-none text-white" href="#farum">Volver a desplegable</a>
+              </div>
+            </section>
+            <hr>
+            <section>
+              <h2 class="titleMap fs-4">Bibliografía</h2>
+              <a class="text-white text-decoration-none text-center" href="https://eldenring.wiki.fextralife.com/Maps" target="_blank">Fextralife - Mapas de Elden Ring</a>
+            </section>
+          </article>
         </main>
 
         <footer class="row row-cols-3 row-cols-sm-3 row-cols-md-3 py-3 mt-5 border-top mx-5 panelMap">
           <a class="titleMap text-center fs-4" id="volver" href="mapa.html">Volver arriba</a>
+
           <div class="col">
-            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <a class="text-white text-decoration-none" href="https://github.com/Miguesg95" target="_blank">Miguesg95</a>
+            <div class="card shadow-sm text-center">
+              <img class="bd-placeholder-img card-img-top" src="https://avatars.githubusercontent.com/u/49833662?v=4" alt="foto perfil">
+              <div class="card-body panelMap">
+                <a class="text-white text-decoration-none" href="https://github.com/Miguesg95" target="_blank">github.com/Miguesg95</a>
+              </div>
+            </div>
           </div>
   
           <div class="col">
