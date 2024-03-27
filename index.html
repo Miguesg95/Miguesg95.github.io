@@ -203,19 +203,25 @@
       </main>
 
       <footer class="row row-cols-3 row-cols-sm-3 row-cols-md-3 py-3 mt-5 border-top mx-5 panel">
-        <a class="title text-center fs-4" id="volver" href="index.html">Volver arriba</a>
+        <a class="title text-center fs-4 pb-3" id="volver" href="index.html">Volver arriba</a>
 
         <div class="col">
-          <div class="card shadow-sm text-center">
-            <img class="bd-placeholder-img card-img-top" src="https://avatars.githubusercontent.com/u/49833662?v=4" alt="foto perfil">
-            <div class="card-body panel">
-              <a class="text-white text-decoration-none" href="https://github.com/Miguesg95" target="_blank">github.com/Miguesg95</a>
-            </div>
-          </div>
+          <figure class="text-center" width="40%">
+            <img class="pb-1" src="https://avatars.githubusercontent.com/u/49833662?v=4" alt="foto perfil">
+            <figcaption><a class="text-white text-decoration-none" href="https://github.com/Miguesg95" target="_blank">github.com/Miguesg95</a></figcaption>
+          </figure>
         </div>
 
-        <div class="col">
-          
+        <div class="col pe-5">
+          <form>
+            <h5 class="title">Contacta con el autor</h5>
+            <p>Dejanos tu email</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">usuario@email.dominio</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="usuario@email.dominio">
+              <button class="btn text-white border" type="button">Enviar</button> 
+            </div>
+          </form>
         </div>
         
         <div class="col">
