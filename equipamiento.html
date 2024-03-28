@@ -31,21 +31,15 @@
           <hr>
           <ul class="nav nav-pills flex-column my-3 ">
             <li class="nav-item">
-              <a href="#" class="nav-link text-white mb-2">
+              <a href="#equipamiento" class="nav-link text-white mb-2">
                 <img class="bi pe-none me-1" src="img/ER_Inventory_Menu_Icon_Ashes_of_War.png" width="20" height="20">
-                Armadura
+                Equipamiento
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
+              <a href="#elige" class="nav-link text-white">
                 <img class="bi pe-none me-1" src="img/ER_Inventory_Menu_Icon_Ashes_of_War.png" width="20" height="20">
-                Armas
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white mt-2">
-                <img class="bi pe-none me-1" src="img/ER_Inventory_Menu_Icon_Ashes_of_War.png" width="20" height="20">
-                Talismanes
+                Elige tu equipamiento
               </a>
             </li>
           </ul>
@@ -57,6 +51,235 @@
             <p class="fs-3">“Soy Malenia, espada de Miquella, y nunca he conocido la derrota”.</p> 
             <p class="fs-2">-Malenia</p>
           </div>
+
+          <article class="contenido panelEq px-5 py-3 ms-5 border-top border-bottom">
+            <section id="equipamiento">
+              <div class="container px-4 py-5" id="hanging-icons">
+                <h2 class="pb-2 border-bottom titleEq">Equipamiento</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                      <img class="bi panelEq" width="80em" height="80em" src="img/ER_Blacksmith_Menu_Icon_Equipped_Armaments.png">
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-white">Armas</h3>
+                      <p>Elden ring cuenta con gran variedad de armas y escudos para personalizar tu estilo de combate.</p>
+                      <button class="navbar-toggler border-bottom panelEq text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarArmas">
+                        Desplegar/Replegar Armas >>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                      <img class="bi panelEq" width="80em" height="80em" src="img/ER_Shop_Menu_Icon_Armor.png">
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-white">Armadura</h3>
+                      <p>Vive la experiencia"Fashion Souls" visitendo a tu personaje con uno de sus muchos sets de armadura o combinando varios de estos.</p>
+                      <button class="navbar-toggler border-bottom panelEq text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarArmadura">
+                        Desplegar/Replegar Armaduras >>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                      <img class="bi panelEq" width="80em" height="80em" src="img/ER_Inventory_Menu_Icon_Talismans.png">
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-white">Talismanes</h3>
+                      <p>Puedes llevar hasta cuatro de estos y dan beneficios pasivos muy útiles para el personaje.</p>
+                      <button class="navbar-toggler border-bottom panelEq text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTalismanes">
+                        Desplegar/Replegar Talismanes >>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse mb-4 text-center" id="navbarArmas">
+                <h3>Categorías de Armas</h3>
+                <a class="border text-decoration-none text-white btn mt-5 mb-5" href="#equipamiento">Volver a equipamiento</a>
+              </div>
+              <div class="collapse mb-4 text-center" id="navbarArmadura">
+                <div class="row mb-2">
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <h3>Featured post</h3>
+                        <br><br>
+                        <table class="table text-center">
+                          <thead>
+                            <tr>
+                              <th style="width: 22%;">Casco</th>
+                              <th style="width: 22%;">Pecho</th>
+                              <th style="width: 22%;">Guantes</th>
+                              <th style="width: 22%;">Piernas</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">Post title</h3>
+                        <br><br>
+                        <table class="table text-center">
+                          <thead>
+                            <tr>
+                              <th style="width: 22%;">Casco</th>
+                              <th style="width: 22%;">Pecho</th>
+                              <th style="width: 22%;">Guantes</th>
+                              <th style="width: 22%;">Piernas</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <h3>Featured post</h3>
+                        <br><br>
+                        <table class="table text-center">
+                          <thead>
+                            <tr>
+                              <th style="width: 22%;">Casco</th>
+                              <th style="width: 22%;">Pecho</th>
+                              <th style="width: 22%;">Guantes</th>
+                              <th style="width: 22%;">Piernas</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">Post title</h3>
+                        <br><br>
+                        <table class="table text-center">
+                          <thead>
+                            <tr>
+                              <th style="width: 22%;">Casco</th>
+                              <th style="width: 22%;">Pecho</th>
+                              <th style="width: 22%;">Guantes</th>
+                              <th style="width: 22%;">Piernas</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                              <td><img class="bi" width="24" height="24" src="img/Black check.png"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="border text-decoration-none text-white btn mt-5 mb-5" href="#equipamiento">Volver a equipamiento</a>
+              </div>
+              <div class="collapse mb-4 text-center" id="navbarTalismanes">
+                <div class="container marketing mt-2">
+
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="equipamiento/ER_Icon_Talisman_Carian_Filigreed_Crest.png" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <h2 class="fw-normal">Blasón Cariano con filigrana</h2>
+                      <p>Reduce el coste de FP de las habilidades de las armas en un 25%.</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="equipamiento/ER_Icon_Talisman_Boltdrake_Talisman_+2.png" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <h2 class="fw-normal">Talisman con dragón fulgurante +2</h2>
+                      <p>Incrementa mucho la resistencia al rayo.</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="equipamiento/ER_Icon_Talisman_Claw_Talisman.png" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <h2 class="fw-normal">Talismán con garra</h2>
+                      <p>Aumenta el daño de los ataques en salto.</p>
+                    </div><!-- /.col-lg-4 -->
+                  </div><!-- /.row -->
+                  
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="equipamiento/ER_Icon_Talisman_Dragoncrest_Greatshield_Talisman.png" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <h2 class="fw-normal">Talismán de escudo grande con blasón de dragón</h2>
+                      <p>Aumenta mucho la defensa física.</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="equipamiento/ER_Icon_Talisman_Graven-Mass_Talisman.png" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <h2 class="fw-normal">Talismán de gran amalgama de magos</h2>
+                      <p>Aumenta consirablemente la potencia de los hechizos.</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="equipamiento/ER_Icon_Talisman_Starscourge_Heirloom.png" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <h2 class="fw-normal">Reliquia del azote de las estrellas</h2>
+                      <p>Aumenta la fuerza.</p>
+                    </div><!-- /.col-lg-4 -->
+                  </div><!-- /.row --> 
+                </div>
+                <a class="border text-decoration-none text-white btn mt-5" href="#equipamiento">Volver a equipamiento</a>
+              </div>
+            </section>
+            <hr>
+            <section id="elige">
+              <h2 class="titleEq">Elige tu equipamiento</h2>
+            </section>
+            <hr>
+            <section>
+              <h2 class="titleEq fs-4">Bibliografía</h2>
+              <a class="text-white text-decoration-none text-center" href="https://www.eliteguias.com/guias/e/er/elden-ring_talismanes.php" target="_blank">Elite guías - Talismanes</a>
+              <br>
+              <a class="text-white text-decoration-none text-center" href="https://eldenring.wiki.fextralife.com/Bosses#demigod" target="_blank">Fextralife - Bosses</a>
+              <br>
+              <a class="text-white text-decoration-none text-center" href="https://eldenring.fandom.com/wiki/Category:Bosses" target="_blank">Elden Ring Fandom - Bosses</a>
+              <br>
+              <a class="text-white text-decoration-none text-center" href="https://eldenring.wiki.fextralife.com/NPCs" target="_blank">Fextralife - Npcs</a>
+            </section>
+          </article>
         </main>
 
         <footer class="row row-cols-3 row-cols-sm-3 row-cols-md-3 py-3 mt-5 border-top mx-5 panelEq">
